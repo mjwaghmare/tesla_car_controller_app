@@ -23,6 +23,7 @@ class HomeController extends ChangeNotifier {
   }
 
   void updateBonnetLock() {
+    print("bonnet");
     isBonnetLock = !isBonnetLock;
     notifyListeners();
   }

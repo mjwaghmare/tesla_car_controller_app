@@ -119,7 +119,7 @@ class _HomeScreenState extends State<HomeScreen>
                     AnimatedPositioned(
                       duration: defaultDuration,
                       top: _controller.selectedTab == 0
-                          ? constrains.maxWidth * 0.13
+                          ? constrains.maxWidth * 0.06
                           : constrains.maxHeight / 2,
                       child: AnimatedOpacity(
                         duration: defaultDuration,
